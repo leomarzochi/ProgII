@@ -13,13 +13,10 @@ int main(void)
             scanf("%f", &notas[i][j]);
         };
     };
-    for (i = 0; i <= 1; i++)
+    for (j = 0; j <= 2; j++)
     {
-        for (j = 0; j <= 1; j++)
-        {
-            soma1 = soma1 + notas[0][j];
-            soma2 = soma2 + notas[1][j];
-        };
+        soma1 = soma1 + notas[0][j];
+        soma2 = soma2 + notas[1][j];
     };
     media1 = soma1 / 3;
     media2 = soma2 / 3;
